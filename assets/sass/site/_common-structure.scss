@@ -1,0 +1,234 @@
+* { -webkit-hyphens: none; }
+
+.clear {clear: both;}
+.site {
+	width: 100%;
+	position: relative;
+}
+.wrapper {
+	width: 100%;
+	margin: 0px auto;
+	padding: 20px;
+	
+	@media screen and (min-width: $tabwidth) {
+		width: 100%;
+	}
+	@media screen and (min-width: $deskwidth) {
+		width: 1200px;
+		padding: 0px;
+	}
+}
+
+.content-area {
+	width: 100%;
+	margin: 0px auto;
+	
+	@media screen and (min-width: $tabwidth) {
+		width: 66%;
+		float: left;
+		margin: 0;
+	}
+	@media screen and (min-width: $deskwidth) {
+		/*width: 1200px;*/
+	}
+}
+
+.widget-area {
+	width: 100%;
+	margin: 0px auto;
+	
+	@media screen and (min-width: $tabwidth) {
+		width: 26%;
+		float: right;
+		margin: 0;
+	}
+	@media screen and (min-width: $deskwidth) {
+		/*width: 1200px;*/
+	}
+}
+
+/* Logo */
+.logo , h1.logo {
+	width: 300px;
+	height: 299px;
+	background: {
+		image: url(images/logo.png);	
+		repeat: no-repeat;
+		size: cover;
+	}
+	margin: 10px auto;
+
+	@media screen and (min-width: $tabwidth) {
+		width: 300px;
+		height: 299px;
+		// float: left;
+		// margin: 0 0 0 -50%;
+		position: absolute;
+		top: -30px;
+		left: -50%;
+	}
+	@media screen and (min-width: $deskwidth) {
+		/*width: 1200px;*/
+	}
+}
+.logo a, h1.logo a {
+	width: 300px;
+	height: 299px;
+	display: block;
+	text-indent: -9000px;
+
+	@media screen and (min-width: $tabwidth) {
+		width: 300px;
+		height: 299px;
+	}
+	@media screen and (min-width: $deskwidth) {
+		/*width: 1200px;*/
+	}
+}
+.teaser {
+	width: 300px;
+	height: 300px;
+	padding: 20px;
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: #fff;
+	background: {
+		image: url(images/triangle.png);
+		repeat: no-repeat;
+		size: cover;
+	}
+	font-size: 28px;
+	text-align: right;
+
+	@media screen and (min-width: $tabwidth) {
+
+	}
+	@media screen and (min-width: $deskwidth) {
+
+	}
+}
+.sub-hero {
+	width: 70%;
+	margin: 50px auto;
+	position: relative;
+	text-align: center;
+	font-size: 30px;
+	color: #fff;
+	text-shadow: 1px 1px 5px rgba(150, 150, 150, 1);
+}
+section.hero {
+	width: 50%;
+	margin: 50px auto 100px auto;
+	position: relative;
+	text-align: center;
+	color: #fff;
+
+
+	h2 {
+		font-size: 50px;
+		text-shadow: 1px 1px 5px rgba(0, 0, 0, 1);
+		margin: 0 0 0 0;
+	}
+	.tagline {
+		font-size: 22px;
+	}
+}
+section.main-content {
+	width: 50%;
+	margin: 50px auto;
+	position: relative;
+	// text-align: center;
+	// font-size: 30px;
+	color: #fff;
+	// text-shadow: 1px 1px 5px rgba(150, 150, 150, 1);
+
+	.item {
+		width: 100%;
+		position: relative;
+		float: left;
+		margin: 0 0 30px 0;
+		padding: 20px;
+		background-color: rgba(255,255,255,.0);
+		@include transition(all ease .5s);
+		font-size: 30px;
+		border-bottom: 1px solid rgba(255,255,255,.2);
+
+		.icon {
+			width: 30%;
+			float: left;
+
+			img {width: 100%;}
+		}
+		.action {
+			width: 100%;
+			margin: 0 0 5px 0;
+			font-size: 20px;
+			text-align: center;
+		}
+		.desc {
+			width: 65%;
+			float: right;
+		}
+
+		a {
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			top: 0;
+			left: 0;
+			display: block;
+			text-indent: -9000px;
+		}
+		&:hover {
+			background-color: rgba(255,255,255,.2);
+		}
+	}
+}
+.cta {
+	width: 70%;
+	margin: 50px auto;
+	position: relative;
+	clear: both;
+	background-color: rgba(255,255,255,.2);
+	padding: 20px;
+	overflow: hidden;
+	border-radius: 10px;
+	font-size: 30px;
+
+	.subject {
+		width: 70%;
+		float: left;
+
+	}
+	.click {
+		width: auto;
+		float: right;
+		a {
+			width: auto;
+			display: block;
+			background-color: rgba($color-yellow,.8);
+			text-align: center;
+			@include transition(all ease .5s);
+			padding: 10px 20px;
+			border-radius: 10px;
+			text-decoration: none;
+			color: #000;
+
+			&:hover {
+				background-color: rgba($color-yellow,1);
+			}
+		}
+	}
+}
+.arrow-right {
+  width: 0; 
+  height: 0; 
+  border-top: 40px solid transparent;
+  border-bottom: 40px solid transparent;
+  
+  border-left: 40px solid rgba(255,255,255,.2);
+  position: absolute;
+  left: -30px;
+  top: 30%;
+}
