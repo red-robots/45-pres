@@ -19,7 +19,7 @@ get_header();
 $post = get_post(2); 
 setup_postdata( $post );
 
-$who_won = get_feild('who_won');
+$who_won = get_field('who_won');
 $bookLink = '';
 
 if( $who_won == 'Clinton' ) {
