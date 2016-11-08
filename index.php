@@ -58,7 +58,7 @@ wp_reset_postdata();
 							<p>A rockin’ version of “Yankee Doodle” and “Hail to the Chief” by the Emmy Award-winning Raggs Band. Each president is named with interesting facts interspersed. 3:00’</p>
 						</div>
 				    	
-				    	<div class="price">.99</div>
+				    	<div class="price">$0.99</div>
 			    	</div><!-- top -->
 			    	<a class="cta" href="<?php echo $song_link; ?>">
 			    		DOWNLOAD
