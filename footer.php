@@ -15,7 +15,7 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="wrapper">
-			
+			<div class="creds">&copy; <?php echo date('Y'); ?> Blue Socks Media LLC.  All rights reserved.</div>
 	</div><!-- wrapper -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
