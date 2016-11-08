@@ -13,7 +13,7 @@ body {
 }
 .banner {
 	width: 85%;
-	margin: 20px auto;
+	margin: 0px auto;
 	img {
 		width: 100%;
 	}
@@ -268,7 +268,7 @@ section.main-content {
 	.plan {
 		flex: 1;
 		background-color: rgba(255,255,255, 0.9);
-		margin: 20px;
+		margin: 20px 0;
 		padding: 20px;
 		text-align: center;
 		border-radius: 4px;
@@ -280,6 +280,9 @@ section.main-content {
 box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.3);
 align-content: stretch;
 align-items: flex-start;
+		@media screen and (min-width: $tabwidth) {
+			margin: 0px 20px 20px 20px;
+		}
 
 		
 
@@ -290,6 +293,7 @@ align-items: flex-start;
 		h3 {
 			font-size: 26px;
 			width: 100%;
+			margin: 5px 0;
 		}
 		h4 {
 			width: 100%;
@@ -330,16 +334,17 @@ align-items: flex-start;
 		}
 		& a.cta {
 			
-			background-color: rgba($color-yellow,.7);
+			background-color: rgba($color-red,.7);
 			@include transition(all ease .3s);
 			color: #000;
 			text-decoration: none;
 			display: block;
 			font-size: 20px;
 			align-self: flex-end;
+			color: #fff;
 
 			&:hover {
-				background-color: rgba($color-yellow,1);
+				background-color: rgba($color-red,1);
 			}
 		}
 		.top {
@@ -364,4 +369,33 @@ box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.75);
 	width: 100%;
 	text-align: center;
 	padding: 40px 0;
+}
+.others {
+	.call {
+		width: 100%;
+		float: left;
+		margin: 5px 0;
+		font-size: 16px;
+	}
+	.blue-butt {
+			width: 100%;
+			float: left;
+			font-size: 14px;
+		a {
+			background-color: rgba($color-blue,.7);
+			@include transition(all ease .3s);
+			color: #000;
+			text-decoration: none;
+			display: block;
+			font-size: 14px;
+			align-self: flex-end;
+			padding: 15px 0;
+			border-radius: 5px ;
+			color: #fff;
+
+			&:hover {
+				background-color: rgba($color-blue,1);
+			}
+		}
+	}
 }

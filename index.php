@@ -26,10 +26,12 @@ if( $who_won == 'Clinton' ) {
 	$song_link = get_field('clinton_song_link');
 	$video_link = get_field('clinton_video_link');
 	$activity_book = get_field('clinton_activity_book');
+	$book = 'book-hillary';
 } else {
 	$song_link = get_field('trump_song_link');
 	$video_link = get_field('trump_video_link');
 	$activity_book = get_field('trump_activity_book');
+	$book = 'book-trump';
 }
  
 	
@@ -65,7 +67,7 @@ wp_reset_postdata();
 				    	<h3>Activity Book</h3>
 				    	<div class="icon">
 							<!-- <div class="action">Watch</div> -->
-							<img src="<?php bloginfo('template_url'); ?>/images/45Pres_Youtube.jpg">
+							<img src="<?php bloginfo('template_url'); ?>/images/<?php echo $book; ?>.png">
 						</div>
 				    	<p>Featuring the character Raggs, 30 children, parents, one Labrador retriever, one break dancing Uncle Sam and one big yellow school bus!  Each president is represented by illustrator Jeff Mangum’s fun caricatures!</p>
 				    	<h4>Features:</h4>
@@ -82,7 +84,8 @@ wp_reset_postdata();
 			    	</a>
 			    	<div class="others">
 			    		<div class="call">Bookstores, retailers & schools</div>
-			    		<a class="cta" href="<?php echo $bookLink; ?>">CLICK HERE</a>
+			    		<div class="blue-butt"><a class="blue-butt" href="<?php echo $bookLink; ?>">CLICK HERE</a></div>
+			    		
 			    	</div>
 			    </div>
 			    <div class="plan plan3">
@@ -90,7 +93,7 @@ wp_reset_postdata();
 				    	<h3>Music Video</h3>
 				    	<div class="icon">
 							<!-- <div class="action">Order</div> -->
-							<img src="<?php bloginfo('template_url'); ?>/images/45pres_itunes.jpg">
+							<img src="<?php bloginfo('template_url'); ?>/images/45Pres_Youtube.jpg">
 						</div>
 				    	<p>This is the FIRST activity book to feature all 45 presidents from Washington thru the recent election! Key facts are included on each page. In addition to feature pages about each president, there are 40 pages of activities including fun facts, First Lady matching, fill-in-the blanks, a format to write the President a letter and coloring sheets of The White House, Air Force One and Mt. Rushmore and much more!</p>
 				    	<div class="price">Free!</div>
