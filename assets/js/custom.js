@@ -94,6 +94,9 @@ jQuery(document).ready(function ($) {
 	*
 	------------------------------------*/
 	$('.js-blocks').matchHeight();
+	$('.js-blocks-two').matchHeight();
+	$('.js-blocks-three').matchHeight();
+	$('.js-blocks-four').matchHeight();
 
 	/*
 	*

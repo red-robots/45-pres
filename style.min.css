@@ -1390,7 +1390,7 @@ html[xmlns] .flexslider .slides{display:block}
 .clear{clear:both}
 .site{width:100%;position:relative}
 body{background-image:url(images/bg.png);background-repeat:repeat}
-.banner{width:85%;margin:0 auto}
+.banner{width:85%;margin:0 auto;position:relative;z-index:1000}
 .banner img{width:100%}
 .wrapper{width:100%;margin:0 auto;padding:20px}
 @media screen and (min-width:600px){.wrapper{width:100%}
@@ -1423,7 +1423,7 @@ section.main-content .item .arrow-right{width:0;height:0;border-top:40px solid t
 section.main-content .item a{width:100%;height:100%;position:absolute;top:0;left:0;display:block;text-indent:-9000px}
 section.main-content .item:hover{background-color:rgba(255,255,255,0.2)}
 section.main-content .item:hover .arrow-right{left:-50px}
-.cta{width:70%;margin:50px auto;position:relative;clear:both;background-color:rgba(255,255,255,0.2);padding:20px;overflow:hidden;border-radius:10px}
+.cta{width:70%;margin:5px auto;position:relative;clear:both;background-color:rgba(255,255,255,0.2);padding:20px;overflow:hidden;border-radius:10px}
 .cta .subject{width:100%;text-align:center;font-size:18px}
 .cta .click{width:auto;float:right}
 .cta .click a{width:auto;display:block;background-color:rgba(247,197,97,0.8);text-align:center;-webkit-transition:all ease .5s;transition:all ease .5s;padding:10px 20px;border-radius:10px;text-decoration:none;color:#000}
@@ -1441,7 +1441,8 @@ section.main-content .item:hover .arrow-right{left:-50px}
 .pricing-grid .plan .price{font-size:26px;padding:0 0 5px 0;display:inline-block;width:100%;margin-top:20px;color:#333}
 .pricing-grid .plan .others{font-size:24px}
 .pricing-grid .plan .call{width:100%;float:left}
-.pricing-grid .plan a.cta{background-color:rgba(254,18,2,0.7);-webkit-transition:all ease .3s;transition:all ease .3s;color:#000;text-decoration:none;display:block;font-size:20px;-webkit-align-self:flex-end;-ms-flex-item-align:end;align-self:flex-end;color:#fff}
+.pricing-grid .plan .last-div{-webkit-align-self:flex-end;-ms-flex-item-align:end;align-self:flex-end}
+.pricing-grid .plan a.cta{background-color:rgba(254,18,2,0.7);-webkit-transition:all ease .3s;transition:all ease .3s;color:#000;text-decoration:none;display:block;font-size:20px;color:#fff}
 .pricing-grid .plan a.cta:hover{background-color:#fe1202}
 .pricing-grid .plan .top{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-content:flex-start;-ms-flex-line-pack:start;align-content:flex-start;-webkit-box-align:start;-webkit-align-items:flex-start;-ms-flex-align:start;align-items:flex-start;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap}
 .pricing-grid .plan>*{-webkit-box-flex:1;-webkit-flex:1;-ms-flex:1;flex:1;-webkit-flex-basis:100%;-ms-flex-preferred-size:100%;flex-basis:100%}
@@ -1451,6 +1452,7 @@ section.main-content .item:hover .arrow-right{left:-50px}
 .others .blue-butt{width:100%;float:left;font-size:14px}
 .others .blue-butt a{background-color:rgba(1,167,243,0.7);-webkit-transition:all ease .3s;transition:all ease .3s;color:#000;text-decoration:none;display:block;font-size:14px;-webkit-align-self:flex-end;-ms-flex-item-align:end;align-self:flex-end;padding:15px 0;border-radius:5px;color:#fff}
 .others .blue-butt a:hover{background-color:#01a7f3}
+#primary{margin-top:-4.5%}
 .sticky{display:block}
 .hentry{margin:0 0 1.5em}
 .byline,.updated:not(.published){display:none}

@@ -48,60 +48,69 @@ wp_reset_postdata();
 
 			<div class="pricing-grid">
 			    <div class="plan plan1">
-				    <div class="top">
-				    	<h3>iTunes</h3>
-				    	<div class="icon">
+				    <div class="top js-blocks-four">
+				    	<h3 class="js-blocks">iTunes</h3>
+				    	<div class="icon js-blocks-two">
 							<!-- <div class="action">Download</div> -->
 							<img src="<?php bloginfo('template_url'); ?>/images/45pres_itunes.jpg">
 						</div>
-				    	<p>A rockin’ version of “Yankee Doodle” and “Hail to the Chief” by the Emmy Award-winning Raggs Band. Each president is named with interesting facts interspersed. 3:00’</p>
-				    	<p>Check out more Raggs songs too!</p>
+						<div class="contents js-blocks-three">
+							<p>A rockin’ version of “Yankee Doodle” and “Hail to the Chief” by the Emmy Award-winning Raggs Band. Each president is named with interesting facts interspersed. 3:00’</p>
+						</div>
+				    	
 				    	<div class="price">.99</div>
 			    	</div><!-- top -->
 			    	<a class="cta" href="<?php echo $song_link; ?>">
 			    		DOWNLOAD
 			    	</a>
+			    	<div class="last-div"></div>
 			    </div>
 			    <div class="plan plan2">
-			    	<div class="top">
-				    	<h3>Activity Book</h3>
-				    	<div class="icon">
+			    	<div class="top js-blocks-four">
+				    	<h3 class="js-blocks">Activity Book</h3>
+				    	<div class="icon js-blocks-two">
 							<!-- <div class="action">Watch</div> -->
 							<img src="<?php bloginfo('template_url'); ?>/images/<?php echo $book; ?>.png">
 						</div>
-				    	<p>Featuring the character Raggs, 30 children, parents, one Labrador retriever, one break dancing Uncle Sam and one big yellow school bus!  Each president is represented by illustrator Jeff Mangum’s fun caricatures!</p>
-				    	<h4>Features:</h4>
-				    	<ul>
-				    		<li>84-pages w/laminated cover </li>
-				    		<li>Large format 8-1/2 x 11</li>
-				    		<li>Caricatures of each president, facts, fill-in-the blanks, matching and info about The White House, Air Force One and Mt. Rushmore</li>
-				    		<li>Ages K-8</li>
-						</ul>
+						<div class="contents js-blocks-three">
+				    		<p>The FIRST activity book to feature all 45 presidents from Washington through the recent election!</p>
+				    		<ul>
+					    		<li>84-pages w/laminated cover </li>
+					    		<li>Large format 8-1/2 x 11</li>
+					    		<li>Caricatures of each president, facts, fill-in-the blanks, matching and info about The White House, Air Force One and Mt. Rushmore</li>
+					    		<li>Ages K-8</li>
+							</ul>
+				    	</div>
+				    	<!-- <h4>Features:</h4> -->
+				    	
 				    	<div class="price">$8.99</div>
 			    	</div><!-- top -->
 			    	<a class="cta" href="<?php echo $activity_book; ?>">
 			    		ORDER
 			    	</a>
 			    	<div class="others">
-			    		<div class="call">Bookstores, retailers & schools</div>
-			    		<div class="blue-butt"><a class="blue-butt" href="<?php echo $bookLink; ?>">CLICK HERE</a></div>
+			    		<!-- <div class="call">Bookstores, retailers & schools</div> -->
+			    		<div class="blue-butt"><a class="blue-butt" href="<?php echo $bookLink; ?>">Bookstores, retailers & schools CLICK HERE</a></div>
 			    		
 			    	</div>
+			    	<div class="last-div"></div>
 			    </div>
 			    <div class="plan plan3">
-			    	<div class="top">
-				    	<h3>Music Video</h3>
-				    	<div class="icon">
+			    	<div class="top js-blocks-four">
+				    	<h3 class="js-blocks">Music Video</h3>
+				    	<div class="icon js-blocks-two">
 							<!-- <div class="action">Order</div> -->
 							<img src="<?php bloginfo('template_url'); ?>/images/45Pres_Youtube.jpg">
 						</div>
-				    	<p>This is the FIRST activity book to feature all 45 presidents from Washington thru the recent election! Key facts are included on each page. In addition to feature pages about each president, there are 40 pages of activities including fun facts, First Lady matching, fill-in-the blanks, a format to write the President a letter and coloring sheets of The White House, Air Force One and Mt. Rushmore and much more!</p>
+						<div class="contents js-blocks-three">
+				    	<p>Starring Raggs, 30 children, parents, one Labrador Retriever, one break dancing Uncle Sam and one big yellow school bus! Each president is represented by fun caricatures! 3:00’</p>
+				    	</div>
 				    	<div class="price">Free!</div>
 			    	</div><!-- top -->
 			    	<a class="cta" href="<?php echo $video_link; ?>">
 			    		WATCH
 			    	</a>
-
+			    	<div class="last-div"></div>
 			    	
 			    </div>
 			</div>

@@ -14,6 +14,8 @@ body {
 .banner {
 	width: 85%;
 	margin: 0px auto;
+	position: relative;
+	z-index: 1000;
 	img {
 		width: 100%;
 	}
@@ -221,7 +223,7 @@ section.main-content {
 }
 .cta {
 	width: 70%;
-	margin: 50px auto;
+	margin: 5px auto;
 	position: relative;
 	clear: both;
 	background-color: rgba(255,255,255,.2);
@@ -330,7 +332,7 @@ align-items: flex-start;
 			float: left;
 		}
 		.last-div {
-			
+			align-self: flex-end;
 		}
 		& a.cta {
 			
@@ -340,7 +342,7 @@ align-items: flex-start;
 			text-decoration: none;
 			display: block;
 			font-size: 20px;
-			align-self: flex-end;
+			
 			color: #fff;
 
 			&:hover {
@@ -398,4 +400,7 @@ box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.75);
 			}
 		}
 	}
+}
+#primary {
+	margin-top: -4.5%;
 }
