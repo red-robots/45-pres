@@ -1453,6 +1453,7 @@ section.main-content .item:hover .arrow-right{left:-50px}
 .others .blue-butt a{background-color:rgba(1,167,243,0.7);-webkit-transition:all ease .3s;transition:all ease .3s;color:#000;text-decoration:none;display:block;font-size:14px;-webkit-align-self:flex-end;-ms-flex-item-align:end;align-self:flex-end;padding:15px 0;border-radius:5px;color:#fff}
 .others .blue-butt a:hover{background-color:#01a7f3}
 #primary{margin-top:-4.5%}
+.spacer-image{margin-top:30px}
 .sticky{display:block}
 .hentry{margin:0 0 1.5em}
 .byline,.updated:not(.published){display:none}

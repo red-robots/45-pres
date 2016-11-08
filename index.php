@@ -101,7 +101,9 @@ wp_reset_postdata();
 				    	<div class="icon js-blocks-two">
 							<!-- <div class="action">Order</div> -->
 							<img src="<?php bloginfo('template_url'); ?>/images/45Pres_Youtube.jpg">
+							<div class="spacer-image"><img src="<?php bloginfo('template_url'); ?>/images/dance.jpg"></div>
 						</div>
+
 						<div class="contents js-blocks-three">
 				    	<p>Starring Raggs, 30 children, parents, one Labrador Retriever, one break dancing Uncle Sam and one big yellow school bus! Each president is represented by fun caricatures! 3:00’</p>
 				    	</div>
