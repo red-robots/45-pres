@@ -1454,6 +1454,12 @@ section.main-content .item:hover .arrow-right{left:-50px}
 .others .blue-butt a:hover{background-color:#01a7f3}
 #primary{margin-top:-4.5%}
 .spacer-image{margin-top:30px}
+.testwrap{width:90%;float:right}
+.raggsbar{width:100%;float:left;position:relative;margin:20px 0}
+.small-logo{width:150px;position:absolute;left:-100px;top:-30px;z-index:10000}
+.small-logo img{width:100%}
+.redbar{background-color:#fe1202;padding:20px 20px 20px 80px;color:#fff;width:100%;position:relative;border-radius:10px}
+.redbar a,.raggsbar a{text-decoration:none;color:#fff;display:block}
 .sticky{display:block}
 .hentry{margin:0 0 1.5em}
 .byline,.updated:not(.published){display:none}

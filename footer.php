@@ -20,6 +20,19 @@
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
+
+<!-- <div class="testwrap">
+	<div class="raggsbar">
+	<a href="http://the45presidents.com/">
+	<div class="small-logo">
+		<img src="<?php bloginfo('template_url'); ?>/images/small-logo.png">
+	</div>
+	<div class="redbar">New! Song, Video, Book - Click Here &raquo;</div>
+	</a>
+</div>	
+</div> -->
+
+
 <?php wp_footer(); ?>
 
 </body>
