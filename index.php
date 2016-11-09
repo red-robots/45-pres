@@ -20,7 +20,7 @@ $post = get_post(2);
 setup_postdata( $post );
 
 $who_won = get_field('who_won');
-$bookLink = get_bloginfo('url') . 'ABA';
+$bookLink = get_bloginfo('url') . '/ABA';
 
 if( $who_won == 'Clinton' ) {
 	$song_link = get_field('clinton_song_link');
