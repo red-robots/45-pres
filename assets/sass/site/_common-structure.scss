@@ -230,6 +230,7 @@ section.main-content {
 	padding: 20px;
 	overflow: hidden;
 	border-radius: 10px;
+	text-align: center;
 	// font-size: 30px;
 
 	.subject {
@@ -272,7 +273,7 @@ section.main-content {
 		background-color: rgba(255,255,255, 0.9);
 		margin: 20px 0;
 		padding: 20px;
-		text-align: center;
+		text-align: left;
 		border-radius: 4px;
 		display: flex;
 		flex-wrap: wrap;
@@ -280,7 +281,7 @@ section.main-content {
 		-webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.3);
 -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.3);
 box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.3);
-align-content: stretch;
+align-content: flex-start;
 align-items: flex-start;
 		@media screen and (min-width: $tabwidth) {
 			margin: 0px 20px 20px 20px;
@@ -379,25 +380,28 @@ box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.75);
 		margin: 5px 0;
 		font-size: 16px;
 	}
-	.blue-butt {
-			width: 100%;
-			float: left;
-			font-size: 14px;
-		a {
-			background-color: rgba($color-blue,.7);
-			@include transition(all ease .3s);
-			color: #000;
-			text-decoration: none;
-			display: block;
-			font-size: 14px;
-			align-self: flex-end;
-			padding: 15px 0;
-			border-radius: 5px ;
-			color: #fff;
+	
+}
+.blue-butt {
+		width: 100%;
+		float: left;
+		font-size: 14px;
+		text-align: center;
+		margin: 5px 0;
+	a.blue-butt {
+		background-color: rgba($color-blue,.7);
+		@include transition(all ease .3s);
+		color: #000;
+		text-decoration: none;
+		display: block;
+		font-size: 14px;
+		align-self: flex-end;
+		padding: 15px 0;
+		border-radius: 5px ;
+		color: #fff;
 
-			&:hover {
-				background-color: rgba($color-blue,1);
-			}
+		&:hover {
+			background-color: rgba($color-blue,1);
 		}
 	}
 }

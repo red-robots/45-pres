@@ -48,21 +48,23 @@ wp_reset_postdata();
 
 			<div class="pricing-grid">
 			    <div class="plan plan1">
-				    <div class="top js-blocks-four">
+				    <div class="top ">
 				    	<h3 class="js-blocks">iTunes</h3>
 				    	<div class="icon js-blocks-two">
 							<!-- <div class="action">Download</div> -->
-							<img src="<?php bloginfo('template_url'); ?>/images/45pres_itunes.jpg">
+							<img src="<?php bloginfo('template_url'); ?>/images/cd.jpg">
+							<!-- <img src="<?php bloginfo('template_url'); ?>/images/45pres_itunes.jpg"> -->
 						</div>
+						<a class="cta" href="<?php echo $song_link; ?>">
+				    		DOWNLOAD
+				    	</a>
 						<div class="contents js-blocks-three">
 							<p>A rockin’ version of “Yankee Doodle” and “Hail to the Chief” by the Emmy Award-winning Raggs Band. Each president is named with interesting facts interspersed. 3:00’</p>
 						</div>
 				    	
 				    	<div class="price">$0.99</div>
 			    	</div><!-- top -->
-			    	<a class="cta" href="<?php echo $song_link; ?>">
-			    		DOWNLOAD
-			    	</a>
+			    	
 			    	<div class="last-div"></div>
 			    </div>
 			    <div class="plan plan2">
@@ -72,10 +74,16 @@ wp_reset_postdata();
 							<!-- <div class="action">Watch</div> -->
 							<img src="<?php bloginfo('template_url'); ?>/images/<?php echo $book; ?>.png">
 						</div>
+						<a class="cta" href="<?php echo $activity_book; ?>">
+				    		ORDER
+				    	</a>
+				    	<div class="blue-butt">
+				    		<a class="blue-butt" href="<?php echo $bookLink; ?>">Retailers & schools CLICK HERE</a>
+				    	</div>
 						<div class="contents js-blocks-three">
-				    		<p>The FIRST activity book to feature all 45 presidents from Washington through the recent election!</p>
+				    		<p>The FIRST activity book to feature all 45 presidents from Washington through President-elect Donald Trump!</p>
 				    		<ul>
-					    		<li>84-pages w/laminated cover </li>
+					    		<li>84-pages with high gloss cover</li>
 					    		<li>Large format 8-1/2 x 11</li>
 					    		<li>Caricatures of each president, facts, fill-in-the blanks, matching and info about The White House, Air Force One and Mt. Rushmore</li>
 					    		<li>Ages K-8</li>
@@ -85,12 +93,10 @@ wp_reset_postdata();
 				    	
 				    	<div class="price">$8.99</div>
 			    	</div><!-- top -->
-			    	<a class="cta" href="<?php echo $activity_book; ?>">
-			    		ORDER
-			    	</a>
+			    	
 			    	<div class="others">
 			    		<!-- <div class="call">Bookstores, retailers & schools</div> -->
-			    		<div class="blue-butt"><a class="blue-butt" href="<?php echo $bookLink; ?>">Bookstores, retailers & schools CLICK HERE</a></div>
+			    		
 			    		
 			    	</div>
 			    	<div class="last-div"></div>
@@ -101,17 +107,21 @@ wp_reset_postdata();
 				    	<div class="icon js-blocks-two">
 							<!-- <div class="action">Order</div> -->
 							<img src="<?php bloginfo('template_url'); ?>/images/45Pres_Youtube.jpg">
-							<div class="spacer-image"><img src="<?php bloginfo('template_url'); ?>/images/dance.jpg"></div>
+							<!-- <img src="<?php bloginfo('template_url'); ?>/images/dance.jpg"> -->
+							<div class="spacer-image">
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/gGvXWamwmck" frameborder="0" allowfullscreen></iframe>
+							</div>
 						</div>
+						<a class="cta" href="<?php echo $video_link; ?>">
+				    		WATCH
+				    	</a>
 
 						<div class="contents js-blocks-three">
 				    	<p>Starring Raggs, 30 children, parents, one Labrador Retriever, one break dancing Uncle Sam and one big yellow school bus! Each president is represented by fun caricatures! 3:00’</p>
 				    	</div>
 				    	<div class="price">Free!</div>
 			    	</div><!-- top -->
-			    	<a class="cta" href="<?php echo $video_link; ?>">
-			    		WATCH
-			    	</a>
+			    	
 			    	<div class="last-div"></div>
 			    	
 			    </div>
