@@ -106,10 +106,11 @@ wp_reset_postdata();
 				    	<h3 class="js-blocks">Music Video</h3>
 				    	<div class="icon js-blocks-two">
 							<!-- <div class="action">Order</div> -->
-							<img src="<?php bloginfo('template_url'); ?>/images/45Pres_Youtube.jpg">
+							<!-- <img src="<?php bloginfo('template_url'); ?>/images/45Pres_Youtube.jpg"> -->
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/gGvXWamwmck" frameborder="0" allowfullscreen></iframe>
 							<!-- <img src="<?php bloginfo('template_url'); ?>/images/dance.jpg"> -->
 							<div class="spacer-image">
-								<iframe width="560" height="315" src="https://www.youtube.com/embed/gGvXWamwmck" frameborder="0" allowfullscreen></iframe>
+								
 							</div>
 						</div>
 						<a class="cta" href="<?php echo $video_link; ?>">

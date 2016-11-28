@@ -176,8 +176,9 @@ section.main-content {
 		.icon {
 			width: 30%;
 			float: left;
+			position: relative;
 
-			img {width: 100%;}
+			img, iframe {width: 100%;}
 		}
 		.action {
 			width: 100%;
@@ -272,6 +273,7 @@ section.main-content {
 		flex: 1;
 		background-color: rgba(255,255,255, 0.9);
 		margin: 20px 0;
+		position: relative;
 		padding: 20px;
 		text-align: left;
 		border-radius: 4px;
@@ -334,6 +336,10 @@ align-items: flex-start;
 		}
 		.last-div {
 			align-self: flex-end;
+		}
+		.icon {
+			width: 100%;
+			position: relative;
 		}
 		& a.cta {
 			
