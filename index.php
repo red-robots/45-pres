@@ -72,7 +72,7 @@ wp_reset_postdata();
 				    	<h3 class="js-blocks">Activity Book</h3>
 				    	<div class="icon js-blocks-two">
 							<!-- <div class="action">Watch</div> -->
-							<img src="<?php bloginfo('template_url'); ?>/images/<?php echo $book; ?>.png">
+							<img src="<?php bloginfo('template_url'); ?>/images/<?php echo $book; ?>.jpg">
 						</div>
 						<a class="cta" href="<?php echo $activity_book; ?>">
 				    		ORDER
